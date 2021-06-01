@@ -2,12 +2,11 @@
 Reinforcement learning project using DDPG to solve reacher problem. Goal of the project was to gain 30 points over 100 episodes.
 Where agent gets 0.1 point for being in target location at every instance.
 
+### Output of the algorithm for 20 agent with centrlized learning. 
+
+![](https://github.com/harshkakashaniya/Richi-Richer/blob/main/images/Train_20.gif)
 
 ### Output of the algorithm for Single agent
-
-![](https://github.com/harshkakashaniya/Minion_robot/blob/main/banana.gif)
-
-### Output of the algorithm for 20 agent with centrlized learning. 
 
 ![](https://github.com/harshkakashaniya/Minion_robot/blob/main/banana.gif)
 
@@ -54,7 +53,7 @@ jupyter notebook
 ```
 
 And select the appropiate file to train or test the model.
-(Eg. continuous-control >> Continuous_Control_single.ipynb)
+(Eg. continuous-control >> Cont_control_final.ipynb)
 
 **Note : Do not forget to select Kernal >> Change kernal >> drlnd**
 
@@ -69,8 +68,12 @@ And select the appropiate file to train or test the model.
 
 ### Our Average score vs Episodes.
 
-![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/training.png)
+![](https://github.com/harshkakashaniya/Richi-Richer/blob/main/images/20_agents.png)
 
 ### Our Results of training.
+Solution with 20 agents :
+```
+Episode: 106 
 
-![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/Episodes.png)
+Average Reward: 30.155
+```
