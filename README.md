@@ -4,7 +4,7 @@ Where agent gets 0.1 point for being in target location at every instance.
 
 ### Output of the algorithm for 20 agent with centrlized learning. 
 
-<img src="https://github.com/harshkakashaniya/Richi-Richer/blob/main/images/untrain_20.gif" width="460"/> <img src="https://github.com/harshkakashaniya/Richi-Richer/blob/main/images/Train_20.gif" width="460"/> 
+<img src="https://github.com/harshkakashaniya/Richi-Richer/blob/main/images/untrain_20.gif" width="440"/> <img src="https://github.com/harshkakashaniya/Richi-Richer/blob/main/images/Train_20.gif" width="440"/> 
 
 ### Output of the algorithm for Single agent
 
