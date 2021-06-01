@@ -23,7 +23,7 @@ Thus, the goal of your agent is to maintain its position at the target location 
 
 
 ### Neural Network details :
-![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Neural_netowork.png)
+![](https://github.com/harshkakashaniya/Richi-Reacher/blob/main/images/Neural_netowork_20.png)
 
 ### Agent details :
 ```
