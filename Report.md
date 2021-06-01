@@ -60,7 +60,7 @@ Maximum time step per episode =1000,
 
 ### Results with 20 agents training in centralized learning fashion.
 
-![](https://github.com/harshkakashaniya/Richi-Richer/blob/main/images/20_agents.png)
+![](https://github.com/harshkakashaniya/Richi-Reacher/blob/main/images/20_agents.png)
 
 **We solved the game with +30 score on an average of 100 episodes in 106 episodes.**
 
