@@ -4,20 +4,16 @@ Where agent gets 0.1 point for being in target location at every instance.
 
 ### Output of the algorithm for 20 agent with centrlized learning. 
 
-![](https://github.com/harshkakashaniya/Richi-Richer/blob/main/images/Train_20.gif)
+<img src="https://github.com/harshkakashaniya/Richi-Richer/blob/main/images/untrain_20.gif" width="460"/> <img src="https://github.com/harshkakashaniya/Richi-Richer/blob/main/images/Train_20.gif" width="460"/> 
 
 ### Output of the algorithm for Single agent
 
 ![](https://github.com/harshkakashaniya/Minion_robot/blob/main/banana.gif)
 
 
-TO checkout pre trained model.
-
-
-
 If you want to train your own model you will refer the file.
 
-[Training program](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/Navigation.ipynb)
+[Training program](https://github.com/harshkakashaniya/Richi-Richer/blob/main/continuous-control/Cont_control_final.ipynb)
 
 ## Setup environment:
 
