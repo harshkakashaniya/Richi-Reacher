@@ -4,7 +4,7 @@ Where agent gets 0.1 point for being in target location at every instance.
 
 ### Output of the algorithm for 20 agent with centrlized learning. 
 
-<img src="https://github.com/harshkakashaniya/Richi-Richer/blob/main/images/untrain_20.gif" width="400"/> <img src="https://github.com/harshkakashaniya/Richi-Richer/blob/main/images/Train_20.gif" width="400"/> 
+<img src="https://github.com/harshkakashaniya/Richi-Reacher/blob/main/images/untrain_20.gif" width="400"/> <img src="https://github.com/harshkakashaniya/Richi-Reacher/blob/main/images/Train_20.gif" width="400"/> 
 
 ### Output of the algorithm for Single agent
 
@@ -13,7 +13,7 @@ Where agent gets 0.1 point for being in target location at every instance.
 
 If you want to train your own model you will refer the file.
 
-[Training program](https://github.com/harshkakashaniya/Richi-Richer/blob/main/continuous-control/Cont_control_final.ipynb)
+[Training program](https://github.com/harshkakashaniya/Richi-Reacher/blob/main/continuous-control/Cont_control_final.ipynb)
 
 ## Setup environment:
 
@@ -34,7 +34,7 @@ pip install .
 
 4. Clone this repo :
 ```
-git clone https://github.com/harshkakashaniya/Richi-Richer.git
+git clone https://github.com/harshkakashaniya/Richi-Reacher.git
 cd Richi-Richer
 ```
 
