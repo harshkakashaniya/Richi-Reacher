@@ -3,9 +3,8 @@ This is a report on impelementation of DDPG Reinforcement algorithm for Reacher 
 Details of environment :
 ```
 Observation space type: continuous
+Number of agents : 20
 Observation space size (per agent): 33
-Stacked Vector Observation: 1
-Action space type: continuous
 Action space size (per agent): 4
 ```
 
@@ -51,12 +50,6 @@ Maximum time step per episode =1000,
 ```
 
 ## Final Results :
-
-### Result with single agent training:
-![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/3_layer_network_1.png)
-
-![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/3_layer_network_2.png)
-
 
 ### Results with 20 agents training in centralized learning fashion.
 
