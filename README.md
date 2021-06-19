@@ -6,10 +6,6 @@ Where agent gets 0.1 point for being in target location at every instance.
 
 <img src="https://github.com/harshkakashaniya/Richi-Reacher/blob/main/images/untrain_20.gif" width="400"/> <img src="https://github.com/harshkakashaniya/Richi-Reacher/blob/main/images/Train_20.gif" width="400"/> 
 
-### Output of the algorithm for Single agent
-
-![](https://github.com/harshkakashaniya/Minion_robot/blob/main/banana.gif)
-
 
 If you want to train your own model you will refer the file.
 
@@ -58,7 +54,7 @@ And select the appropiate file to train or test the model.
 
 ## Project Report :
 
-[Architecture and project report](https://github.com/harshkakashaniya/Minion_robot/blob/main/Report.md)
+[Architecture and project report](https://github.com/harshkakashaniya/Richi-Reacher/blob/main/Report.md)
 
 ## Results :
 
