@@ -1,4 +1,4 @@
-This is a report on impelementation of DDPG Reinforcement algorithm for Reacher problem.
+## Report on impelementation of DDPG Reinforcement algorithm for Reacher problem.
 
 Details of environment :
 ```
@@ -8,17 +8,32 @@ Observation space size (per agent): 33
 Action space size (per agent): 4
 ```
 
-### Observation Space :
+### State Space :
 
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. 
+
+### Action Space :
+
 Each action is a vector with four numbers, corresponding to torque applicable to two joints.
 Every entry in the action vector should be a number between -1 and 1.
 
 
 ### Reward :
+
 In this environment, a double-jointed arm can move to target locations.
 A reward of +0.1 is provided for each step that the agent's hand is in the goal location.
 Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
+
+## Solving criterias of the problem. 
+
+### Option 1: Solve the First Version
+The task is episodic, and in order to solve the environment, your agent must get an average score of +30 over 100 consecutive episodes.
+
+### Option 2: Solve the Second Version
+The barrier for solving the second version of the environment is slightly different, to take into account the presence of many agents. In particular, your agents must get an average score of +30 (over 100 consecutive episodes, and over all agents). Specifically,
+
+After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 20 (potentially different) scores. We then take the average of these 20 scores.
+This yields an average score for each episode (where the average is over all 20 agents).
 
 
 ### Neural Network details :
@@ -43,7 +58,7 @@ WEIGHT_DECAY = 0        # L2 weight decay
 5. Two networks are maintained for each Actor and Critic in order to have a smooth learnings.
 6. We use Tau parameter to update the network slowly so that we so not overshoot in gradient descent and function learned by the neural network is better.
 
-### DQN algorithm.
+### DDPG algorithm.
 ```
 number of episodes=1000, 
 Maximum time step per episode =1000,
